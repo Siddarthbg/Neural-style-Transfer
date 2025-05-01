@@ -1,16 +1,16 @@
 # Neural-style-Transfer
 
-#COMPANY : CODTECH IT SOLUTION
+# COMPANY : CODTECH IT SOLUTION
 
-#INTERN ID :CT08WU25
+# INTERN ID :CT08WU25
 
-#DOMAIN : ARTIFICIAL INTELLIGENCE
+# DOMAIN : ARTIFICIAL INTELLIGENCE
 
-#DURATION:8 WEEKS
+# DURATION:8 WEEKS
 
-#MENTOR:NEELA SANTOSH
+# MENTOR:NEELA SANTOSH
 
-#DESCRIPTION:
+# DESCRIPTION:
 This project implements Neural Style Transfer (NST) using TensorFlow and Keras, allowing a user to transform a content image in the style of another image. Inspired by artistic creativity and deep learning, this script blends the visual style of one image with the structural content of another, resulting in a stylized output that resembles artwork.
 The core idea behind neural style transfer is to separate and recombine the content and style of images using a convolutional neural network (CNN). This script uses a pre-trained VGG19 network from the ImageNet dataset to extract both content and style representations. Specifically, content features are drawn from a deeper layer (block5_conv2) while style features come from multiple early to mid layers (block1_conv1 through block5_conv1) to capture textures and patterns.
 The workflow begins with image preprocessing. Input images (content and style) are resized and normalized using TensorFlow functions to fit within a specified dimension and prepared for feature extraction. The load_img function handles these transformations, while tensor_to_image and imshow assist with displaying and converting images during intermediate steps.
@@ -21,4 +21,4 @@ An optional but unique feature of this script is the inclusion of an ASCII previ
 The final stylized image is displayed using matplotlib, and optionally saved to disk if a path is provided. The complete process takes around a few minutes depending on hardware, and is suitable for both experimentation and artistic production.
 In summary, this project offers a clean, modular, and effective implementation of neural style transfer, combining computer vision, optimization, and creativity. It showcases how deep learning can be used not only for analytics but also for generating art and new forms of expression.
 
-#OUTPUT:![Image](https://github.com/user-attachments/assets/33249e3c-aaf4-4ccc-a247-4330d24c7a17)
+# OUTPUT:![Image](https://github.com/user-attachments/assets/33249e3c-aaf4-4ccc-a247-4330d24c7a17)
