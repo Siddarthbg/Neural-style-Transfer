@@ -21,4 +21,4 @@ An optional but unique feature of this script is the inclusion of an ASCII previ
 The final stylized image is displayed using matplotlib, and optionally saved to disk if a path is provided. The complete process takes around a few minutes depending on hardware, and is suitable for both experimentation and artistic production.
 In summary, this project offers a clean, modular, and effective implementation of neural style transfer, combining computer vision, optimization, and creativity. It showcases how deep learning can be used not only for analytics but also for generating art and new forms of expression.
 
-#OUTPUT
+#OUTPUT:![Image](https://github.com/user-attachments/assets/33249e3c-aaf4-4ccc-a247-4330d24c7a17)
